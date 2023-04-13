@@ -1,11 +1,12 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
+    title: 'Teguh Sujatmiko',
     description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    image: 'https://karamel.id/_nuxt/img/logo-karamel.d68322c.png',
     socials: {
-      twitter: 'nuxtstudio',
-      github: 'nuxt-themes/docus'
+      instagram: 'teguh.sujatmiko',
+      twitter: 'tghsjtmk',
+      github: 'tghsjtmk',
     },
     layout: 'default',
     aside: {
@@ -13,10 +14,17 @@ export default defineAppConfig({
       exclude: []
     },
     header: {
-      logo: true,
-      showLinkIcon: false
+      // fluid: true,
+      title: 'Teguh Sujatmiko',
+      showLinkIcon: true,
+      exclude: [],
+    },
+    main: {
+      // fluid: true,
+      padded: true,
     },
     footer: {
+      // fluid: true,
       credits: {
         icon: 'IconDocus',
         text: 'Powered by Docus',
@@ -24,15 +32,9 @@ export default defineAppConfig({
       },
       textLinks: [
         {
-          text: 'NuxtJS',
-          href: 'https://nuxtjs.org',
+          text: 'Made with ❤️ Karamel.id',
+          href: 'https://karamel.id',
           target: '_blank'
-        }
-      ],
-      iconLinks: [
-        {
-          href: 'https://nuxt.com',
-          icon: 'simple-icons:nuxtdotjs'
         }
       ],
     }
