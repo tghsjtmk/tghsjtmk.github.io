@@ -3,10 +3,10 @@ node_modules
 .idea
 *.log*
 .nuxt
-.vscode
+# .vscode
 .DS_Store
 coverage
-# dist
+dist
 sw.*
 .env
 .output
