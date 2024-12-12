@@ -8,6 +8,6 @@
   "files.autoSave": "onFocusChange", // optional but recommended
   "eslint.validate": ["typescript", "javascript", "json"],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   }
 }
